@@ -1,0 +1,45 @@
+body{
+    padding: 100px;
+}
+.submit-area{
+    padding: 25px;
+    box-shadow: 5px 5px 15px lightgreen;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+#transaction-Area{
+    display:none;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon; 
+}
+.balance{
+    background-color: orange;  
+}
+.status{
+    padding: 10px;
+    width: 90%;
+    height:100px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+.putDeposit{
+    padding: 15px;
+    box-shadow: 5px 5px 15px lightgreen;
+    border-radius: 15px;
+   
+    color: Black;
+    border:2px solid lightgreen;
+}
+.putWithdraw{
+    padding: 15px;
+    box-shadow: 5px 5px 15px lightgreen;
+    border-radius: 15px;
+   
+    color: Black;
+    border:2px solid lightgreen;
+}

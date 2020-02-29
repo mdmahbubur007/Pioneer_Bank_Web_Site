@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Pioneer Bank</title>
+</head>
+<body>
+    <div id="log-in-area">
+        <h2 class="text-center mb-5">Welcome to Pioneer Bank Limited</h2>
+        <div class="submit-area w-50">
+            <h3>Log In Form</h3>
+            <br>
+            <input class="form-control" type="text" placeholder="Enter your email.">
+            <br>
+            <input class="form-control" type="password" placeholder="type password">
+            <br>
+            <div id="login" class="btn btn-info">Submit</div>
+        </div>
+    </div>
+    <div id="transaction-Area">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="deposit status">
+                    <h5>Deposit</h5>
+                    <h2>$ <span id="currentDeposit">00.00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="withdraw status">
+                    <h5>With-Drawn</h5>
+                    <h2>$ 00</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balance status">
+                    <h5>Balance</h5>
+                    <h2>$ 1240.00</h2>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="putDeposit">
+                    <h1>Deposit</h1>
+                    <input id="depositAmount" class="form-control" type="text" placeholder= "Put deposit amount">
+                    <br>
+                    <button id="addDeposit" class="btn btn-success">Deposit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="putWithdraw">
+                    <h1>Withdraw</h1>
+                    <input class="form-control" type="text" placeholder= "Put withdraw amount">
+                    <br>
+                    <button class="btn btn-success">Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Bank-Deposit.js"></script>
+</body>
+</html>
