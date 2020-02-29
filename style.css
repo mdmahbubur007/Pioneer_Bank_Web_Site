@@ -14,10 +14,10 @@ body{
     background-color: slateblue;
 }
 .withdraw{
-    background-color: lightsalmon; 
+    background-color: lightsalmon;
 }
 .balance{
-    background-color: orange;  
+    background-color: orange;
 }
 .status{
     padding: 10px;
@@ -31,7 +31,7 @@ body{
     padding: 15px;
     box-shadow: 5px 5px 15px lightgreen;
     border-radius: 15px;
-   
+
     color: Black;
     border:2px solid lightgreen;
 }
@@ -39,7 +39,7 @@ body{
     padding: 15px;
     box-shadow: 5px 5px 15px lightgreen;
     border-radius: 15px;
-   
+
     color: Black;
     border:2px solid lightgreen;
 }
