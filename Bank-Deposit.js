@@ -31,10 +31,17 @@ depositBtn.addEventListener("click", function(){
     const totalDeposit=depositNumber+currentDepositedAmount;
     document.getElementById("currentDeposit").innerText=totalDeposit;
 
-    const currentBalance = document.getElementById("currentBalance").innerText;
-    const currentBalanceAmount=parseFloat("currentBalance");
-    const totalBalance=currentBalanceAmount+depositNumber;
-    document.getElementById("currentBalance").innerText=totalBalance;
+    // total balance
+  const mainBalance  = document.getElementById("main-balance").innerText;
+  const updateBalance = parseFloat(mainBalance) + depositNumber;
+  
+  // update text current balance
+  document.getElementById("main-balance").innerText = updateBalance;
 
-    document.getElementById("depositAmount").value =" ";
+    // const currentBalance = document.getElementById("currentBalance").innerText;
+    // const currentBalanceAmount=parseFloat("currentBalance");
+    // const totalBalance=currentBalanceAmount+depositNumber;
+    // document.getElementById("currentBalance").innerText=totalBalance;
+
+    document.getElementById("depositAmount").value = "";
 })
